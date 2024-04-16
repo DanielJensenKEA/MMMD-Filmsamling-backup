@@ -42,6 +42,9 @@ public class MovieCollection {
         fh.saveListOfMovies(movieListe);
         return result;
     }
+    public FileHandler getFh() {
+        return fh;
+    }
 
 
     //metoder til editing og delete

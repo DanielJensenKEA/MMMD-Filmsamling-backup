@@ -70,7 +70,9 @@ public class Controller {
         /*
         instanceMovieCollection.getFh().saveListOfMovies();
         fh.saveListOfMovies(instanceMovieCollection);
-         */
+        */
+        instanceMovieCollection.getFh().saveListOfMovies(instanceMovieCollection.getMovieListe());
+
 
 
     }
